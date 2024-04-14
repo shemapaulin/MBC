@@ -3,7 +3,7 @@ import impact from '../assets/beans.jpg'
 
 const Impact = () => {
   return (
-    <div className="dark:bg-gray-100 dark:text-amber-950">
+    <div className="dark:bg-gray-100 dark:text-amber-950" data-aos="fade-left">
 	<div className="container grid grid-cols-12 mx-auto">
   <div className="flex flex-col justify-center col-span-12 align-middle bg-no-repeat bg-cover dark:bg-gray-700 lg:col-span-6 lg:h-auto" style={{ backgroundImage: `url(${impact})`, backgroundPosition: 'center center', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
 			<div className="flex flex-col items-center dark:text-[#fef9c3]  p-8 py-12 text-center" data-aos="fade-up">

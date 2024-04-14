@@ -1,10 +1,12 @@
 import React from 'react';
+import MobileNav from './moboNav'
 import logo from '../assets/finalLogo.png'
 const Header = () => {
   return (
+	<>
     <header className="p-4 dark:bg-yellow-100 dark:text-amber-900">
-         <div className="max-w-[85rem] mx-auto w-full px-4 sm:px-6 lg:px-8">
-    <div className="flex items-center justify-end gap-x-5 w-full py-2 sm:pt-2 sm:pb-0">
+         <div className="max-w-[85rem] mx-auto w-full px-4 sm:px-6 lg:px-8 ">
+    <div className="flex items-center justify-end gap-x-5 w-full py-2 sm:pt-2 sm:pb-0 ">
       <a className="inline-flex justify-center items-center gap-2 font-medium text-green-300 hover:text-amber-900 text-sm dark:text-lime-700 dark:hover:text-amber-900" href="#">
         <svg className="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"/><path d="M7 3.34V5a3 3 0 0 0 3 3v0a2 2 0 0 1 2 2v0c0 1.1.9 2 2 2v0a2 2 0 0 0 2-2v0c0-1.1.9-2 2-2h3.17"/><path d="M11 21.95V18a2 2 0 0 0-2-2v0a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"/><circle cx="12" cy="12" r="10"/></svg>
         English (US)
@@ -39,13 +41,12 @@ const Header = () => {
 				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border-">CONTACT</a>
 			</li>
 		</ul>
-		<button className="flex justify-end p-4 md:hidden">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-				<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-			</svg>
-		</button>
+		
 	</div>
+	<MobileNav/>
 </header>
+
+</>
   );
 }
 
