@@ -25,21 +25,21 @@ const Header = () => {
   </div>
   {/** bottom bar*/}
 	<div className="container flex justify-between h-16 mx-auto">
-		<a rel="noopener noreferrer" href="/" aria-label="Back to homepage" className="flex items-center p-2 ">
+		<Link rel="noopener noreferrer" to="/" aria-label="Back to homepage" className="flex items-center p-2 ">
 			<img src={logo} alt="logo" className='w-45 h-20' />
-		</a>
+		</Link>
 		<ul className="items-stretch hidden space-x-3 md:flex">
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">HOME</a>
+				<Link rel="noopener noreferrer" to="/" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">HOME</Link>
 			</li>
 			<li className="flex">
-				<link rel="noopener noreferrer" to="/About" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</link>
+				<Link rel="noopener noreferrer" to="/About" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</Link>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/Programs" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border- ">PROGRAMS</a>
+				<Link rel="noopener noreferrer" to="/Programs" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border- ">PROGRAMS</Link>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/Contact" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border-">CONTACT</a>
+				<Link rel="noopener noreferrer" to="/Contact" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border-">CONTACT</Link>
 			</li>
 		</ul>
 		
