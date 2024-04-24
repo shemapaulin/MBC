@@ -1,6 +1,7 @@
 
 import MobileNav from './moboNav'
 import logo from '../assets/finalLogo.png'
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
 	<>
@@ -32,7 +33,7 @@ const Header = () => {
 				<a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">HOME</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/About" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</a>
+				<link rel="noopener noreferrer" to="/About" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</link>
 			</li>
 			<li className="flex">
 				<a rel="noopener noreferrer" href="/Programs" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border- ">PROGRAMS</a>
