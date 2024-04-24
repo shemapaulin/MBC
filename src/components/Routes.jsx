@@ -2,7 +2,8 @@ import React from 'react'
 import Garelly from './Garelly';
 import { Route, Routes,useLocation } from 'react-router-dom';
 import Home from './Home';
-import About from '../components/Pages/about'
+import About from './Pages/about';
+
 import Programs from './Pages/Programs';
 import Contact from './Pages/contact';
 const MainRoutes = () => {
