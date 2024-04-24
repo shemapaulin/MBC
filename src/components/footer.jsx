@@ -1,4 +1,4 @@
-import React from "react";
+
 import finalLogo from "../assets/finalLogo.png";
 const footer = () => {
   return (

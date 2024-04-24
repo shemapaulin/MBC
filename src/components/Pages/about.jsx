@@ -1,6 +1,6 @@
-import React from 'react'
-import ProjectItem from "./projectItem";
 
+import ProjectItem from "./projectItem";
+import { FaPlane,FaLifeRing } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -173,10 +173,10 @@ const About = () => {
         </div>
        
         <div class="flex">
-          <svg class="flex-shrink-0 mt-2 size-6 text-amber-900 dark:text-amber-900" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <FaPlane class="flex-shrink-0 mt-2 size-6 text-amber-900 dark:text-amber-900" />
           <div class="ms-5 sm:ms-8">
             <h3 class="text-base sm:text-lg font-semibold text-amber-900 dark:text-amber-900">
-              Fostering vibrant communities
+              Our Production Overseas 
             </h3>
             <p class="mt-1 text-amber-900 dark:text-amber-900">
               Our passion is bringing people together. Beyond creating beautiful spaces, we provide shared experiences.
@@ -185,10 +185,10 @@ const About = () => {
         </div>
       
         <div class="flex">
-          <svg class="flex-shrink-0 mt-2 size-6 text-amber-900 dark:text-amber-900" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"/></svg>
+          <FaLifeRing class="flex-shrink-0 mt-2 size-6 text-amber-900 dark:text-amber-900" />
           <div class="ms-5 sm:ms-8">
             <h3 class="text-base sm:text-lg font-semibold text-amber-900 dark:text-amber-900">
-              Simple and all-inclusive
+              Local Life Changing
             </h3>
             <p class="mt-1 text-amber-900 dark:text-amber-900">
               We worry about the details so that our residents don't have to. From our online application process to simple, all-inclusive billing we aim to make the living experience as effortless as possible.
@@ -237,6 +237,137 @@ const About = () => {
 		</div>
 	</div>
 </section>
+
+
+
+
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  
+  <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+    <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Our leadership</h2>
+  </div>
+  
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          David Forren
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          Founder / CEO
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          Amil Evara
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          UI/UX Designer
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          Ebele Egbuna
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          Support Consultant
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          Maria Powers
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          Director of sales
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          Delia Pawelke
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          Front-end Developer
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1624224971170-2f84fed5eb5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          Tom Lowry
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          UI/UX Designer
+        </p>
+      </div>
+    </div>
+   
+
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          Louise Donadieu
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          Support Consultant
+        </p>
+      </div>
+    </div>
+   
+
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1514222709107-a180c68d72b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          Jeff Fisher
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          Project Manager
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="text-center">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1602452920335-6a132309c7c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <div class="mt-2 sm:mt-4">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+          Sophia Harrington
+        </h3>
+        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+          Project Manager
+        </p>
+      </div>
+    </div>
+   
+  </div>
+ 
+</div>
+
     </>
   )
 }

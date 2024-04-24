@@ -1,7 +1,5 @@
-import React from 'react'
-import mine from '../assets/mine.jpg'
-import p1m from '../assets/p1m.jpg'
-import p2 from '../assets/p2.jpg'
+
+
 import p3 from '../assets/p3.jpg'
 
 const Testimonial = () => {

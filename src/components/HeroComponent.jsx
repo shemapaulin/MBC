@@ -1,9 +1,8 @@
-import React from "react";
+
 import mbcimg from "../assets/cofeplanter2.jpg";
 import { TypeAnimation } from "react-type-animation";
 import beans from '../assets/beans.jpg'
-import { Link,Route,Routes,useLocation  } from "react-router-dom";
-import Garelly from "./Garelly";
+
 
 const HeroComponent = () => {
   

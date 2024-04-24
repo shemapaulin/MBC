@@ -1,4 +1,4 @@
-import React from 'react'
+
 import impact from '../assets/beans.jpg'
 
 const Impact = () => {

@@ -1,0 +1,151 @@
+
+
+const Programs = () => {
+  return (
+    <>
+   <div className="pb-10">
+      <div
+        className="relative dark:bg-amber-950 bg-amber-950 from-violet-600/[.15]  via-transparent z-10 "
+      >
+        <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 ">
+        
+
+          {/* Title */}
+          <div className="max-w-3xl text-center mx-auto">
+            <h1 className="block font-medium text-white text-4xl sm:text-5xl md:text-6xl lg:text-5xl animated-slideInBottom">
+              Programs 
+           {/** <TypeAnimation
+                sequence={[
+                  // Same substring at the start will only be typed out once, initially
+                  'About Us',
+                  1000, // wait 1s before replacing "Mice" with "Hamsters"
+                  'Mubuga Bio Coffee [2020-2024]',
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                style={{ fontSize: '1em', display: 'inline-block', paddingLeft:'5px', opacity: '1' }} // Adjust opacity here
+                repeat={Infinity}
+              />
+              **/}
+            </h1>
+             
+          </div>
+          {/* End Title */}
+
+          <div className="max-w-3xl text-center mx-auto">
+            <p className="text-lg text-white">
+              
+            </p>
+          </div>
+
+        
+
+          
+        </div>
+      </div>
+    </div>
+
+
+
+<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  
+  <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-lime-600 dark:text-lime-600">Programs Ahead</h2>
+    <p className="mt-1 text-gray-600 text-amber-950 dark:text-amber-950">Stay in the know with insights from industry experts.</p>
+  </div>
+
+
+  
+  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <a className="group" href="#">
+      <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
+        <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/beans.jpg"/>
+        <span className="absolute top-0 end-0 rounded-se-xl rounded-es-xl text-xs font-medium bg-lime-600 text-amber-950 py-1.5 px-3 dark:bg-lime-600">
+          Sponsored
+        </span>
+      </div>
+
+      <div className="mt-7">
+        <h3 className="text-xl font-semibold text-amber-950 group-hover:text-gray-600 dark:text-amber-950 ">
+        International Coffee Day
+        </h3>
+        <p className="mt-3 text-amber-950 dark:text-amber-950">
+          Produce professional, reliable streams easily leveraging Preline's innovative broadcast studio
+        </p>
+        
+      </div>
+    </a>
+   
+    <a className="group" href="#">
+      <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
+        <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/5.jpg"/>
+      </div>
+
+      <div className="mt-7">
+        <h3 className="text-xl font-semibold text-amber-950  dark:text-amber-950 ">
+          Charity Programs
+        </h3>
+        <p className="mt-3 text-amber-950 dark:text-amber-950">
+          Optimize your in-person experience with best-in-className capabilities like badge printing and lead retrieval
+        </p>
+        
+      </div>
+    </a>
+    
+    <a className="group" href="#">
+      <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
+        <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/mubugagm.webp"/>
+      </div>
+
+      <div className="mt-7">
+        <h3 className="text-xl font-semibold text-amber-950  dark:text-amber-950 ">
+          Genocide Memorial Program
+        </h3>
+        <p className="mt-3 text-amber-950 dark:text-amber-950">
+          Optimize your in-person experience with best-in-className capabilities like badge printing and lead retrieval
+        </p>
+        
+      </div>
+    </a>
+   
+  </div>
+</div>
+
+
+
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16 mx-auto bg-amber-950">
+  <div class="grid md:grid-cols-2 gap-8">
+    <div class="max-w-md">
+      <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-lime-600 dark:text-lime-600">Subscribe</h2>
+      <p class="mt-3 text-gray-600 dark:text-white text-white">
+        Subscribe For New Programs Ahead So that you can be updated anytime....
+      </p>
+    </div>
+
+    <form>
+      <div class="w-full sm:max-w-lg md:ms-auto">
+        <div class="flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
+          <div class="w-full">
+            <label for="hero-input" class="sr-only">Search</label>
+            <input type="text" id="hero-input" name="hero-input" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="Enter your email" />
+          </div>
+          <a class="w-full sm:w-auto whitespace-nowrap py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-lime-600 text-white hover:bg-lime-700 hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
+            Subscribe
+          </a>
+        </div>
+        <p class="mt-3 text-sm text-gray-500 dark:text-neutral-500">
+          No spam, unsubscribe at any time
+        </p>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+    </>
+  )
+}
+
+export default Programs
