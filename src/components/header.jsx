@@ -32,13 +32,13 @@ const Header = () => {
 				<a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">HOME</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/about" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</a>
+				<a rel="noopener noreferrer" href="/About" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/programs" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border- ">PROGRAMS</a>
+				<a rel="noopener noreferrer" href="/Programs" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border- ">PROGRAMS</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/contact" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border-">CONTACT</a>
+				<a rel="noopener noreferrer" href="/Contact" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border-">CONTACT</a>
 			</li>
 		</ul>
 		

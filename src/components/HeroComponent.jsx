@@ -124,7 +124,7 @@ backgroundSize: 'cover'
          <div className="text-center">  
           <a
               className="animated-slideInLeft group inline-flex  gap-x-3 text-center bg-amber-950 from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-amber-900/50 border border-transparent text-white text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800"
-              href='/garelly'
+              href='/Garelly'
             >
              
               View Garelly

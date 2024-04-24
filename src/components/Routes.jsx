@@ -10,10 +10,10 @@ const MainRoutes = () => {
   return (
     <Routes key={location.pathname} location={location}>
 <Route path="/" element={<Home/>}/>
-    <Route path="/garelly" element={<Garelly/>}/>
-    <Route path="/about" element={<About/>}/>
-    <Route path="/programs" element={<Programs/>}/>
-    <Route path="/contact" element={<Contact/>}/>
+    <Route path="/Garelly" element={<Garelly/>}/>
+    <Route path="/About" element={<About/>}/>
+    <Route path="/Programs" element={<Programs/>}/>
+    <Route path="/Contact" element={<Contact/>}/>
      </Routes>
   )
 }
