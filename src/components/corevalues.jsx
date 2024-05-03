@@ -20,7 +20,7 @@ const corevalues = () => {
                   Hard Working
                 </span>
                 <span className="mt-4  dark:text-gray-100">
-                  As we're highly ambitioned company, we do our best to deliver the orders as fast as we can. our workers they're well treated so highly encouraged 
+                  As we're highly ambitioned company, we do our best to get job done in short time. our workers they're well treated so highly encouraged 
                 </span>
               </div>
             </div>
