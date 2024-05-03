@@ -11,34 +11,34 @@ const footer = () => {
           <div className=" text-sm  lg:w-2/3  flex justify-between ">
             <div className="space-y-3">
               <h3 className="tracking-wide uppercase dark:text-white">
-                Product
+              Features
               </h3>
               <ul className="space-y-1">
                 <li>
-                  <a rel="noopener noreferrer" href="#">
-                    Features
+                  <a rel="noopener noreferrer" href="/Garelly">
+                    Garelly
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#">
-                    Integrations
+                  <a rel="noopener noreferrer" href="/Programs">
+                    programs
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#">
-                    Pricing
+                  <a rel="noopener noreferrer" href="/About">
+                    about
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#">
-                    FAQ
+                  <a rel="noopener noreferrer" href='/Contact'>
+                    contact
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="space-y-3">
-              <div className="uppercase dark:text-gray-900">Social media</div>
+              <div className="uppercase text-white">Social media</div>
               <div className="flex justify-start space-x-3">
                 <a
                   rel="noopener noreferrer"

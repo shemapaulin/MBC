@@ -1,5 +1,5 @@
 
-import mbcimg from "../assets/cofeplanter2.jpg";
+import product from '../assets/product.jpg'
 import { TypeAnimation } from "react-type-animation";
 import beans from '../assets/beans.jpg'
 
@@ -12,7 +12,7 @@ const HeroComponent = () => {
       <div
         className="relative bg-gradient-to-r from-violet-600/[.15] h-90 via-transparent z-10 "
         style={{
-          backgroundImage: `url(${mbcimg})`,
+          backgroundImage: `url(${product})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

@@ -21,8 +21,8 @@ const menuVariants = {
 const MobileNav = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className="xl:hidden text-primary">
-      <div className="text-3xl cursor-pointer absolute top-14 right-4" onClick={() => setOpenMenu(true)}>
+    <nav className="xl:hidden text-primary ">
+      <div className="text-3xl cursor-pointer  absolute top-14 right-4" onClick={() => setOpenMenu(true)}>
         <CgMenuRight />
       </div>
       <motion.div
@@ -32,12 +32,12 @@ const MobileNav = () => {
         className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20 "
       >
         <div
-          className="text-4xl absolute z-30 left-4 top-4 cursor-pointer text-Primary"
+          className="text-4xl absolute z-30 left-4 top-4 text-black cursor-pointer text-Primary"
           onClick={() => setOpenMenu(false)}
         >
           <IoMdClose />
         </div>
-        <ul className="h-full flex flex-col justify-center items-center gap-y-8 text-primary font-Primary font-bold text-3xl cursor-pointer">
+        <ul className="h-full flex flex-col justify-center items-center text-black gap-y-8 text-primary font-Primary font-bold text-3xl cursor-pointer">
           <li>
             <Link to="/">Home</Link>
           </li>

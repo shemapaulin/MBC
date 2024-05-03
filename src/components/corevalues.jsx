@@ -1,5 +1,6 @@
 
-import { FaShippingFast, FaHandsHelping,FaBalanceScale,FaStamp } from "react-icons/fa";
+import { FaHandHoldingHeart, FaHandsHelping,FaBalanceScale,FaStamp,FaBolt } from "react-icons/fa";
+ 
 const corevalues = () => {
   return (
     <>
@@ -12,7 +13,7 @@ const corevalues = () => {
           <div className="divide-y dark:divide-gray-300">
             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
               <div className="flex items-center  justify-center lg:col-span-1 col-span-full">
-                <FaShippingFast className="w-16 h-16 text-white" />
+                <FaBolt className="w-16 h-16 text-white" />
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                 <span className="text-xl font-bold md:text-2xl">
@@ -51,7 +52,7 @@ const corevalues = () => {
             </div>
             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
               <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-               <FaHandsHelping className="w-16 h-16 text-white" />
+               <FaHandHoldingHeart className="w-16 h-16 text-white" />
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                 <span className="text-xl font-bold md:text-2xl">
