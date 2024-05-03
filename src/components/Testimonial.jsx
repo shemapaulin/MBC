@@ -7,7 +7,7 @@ const Testimonial = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  lg:py-20" >
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 ">
        
-        <h2 className="max-w-lg dark:text-amber-950 mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto" data-aos="fade-up">
+        <h2 className="max-w-lg dark:white mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto" data-aos="fade-up">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
@@ -33,11 +33,10 @@ const Testimonial = () => {
             </svg>
             
           </span>{' '}
-          Testimanials
+          Testimanies
         </h2>
-        <p className="text-base text-amber-950 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+        <p className="text-base text-white md:text-lg">
+          Founders and Farm workers
         </p>
       </div>
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -50,11 +49,11 @@ const Testimonial = () => {
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Oliver Aguilerra
+                FOUNDER
               </p>
-              <p className="mb-4 text-xs text-gray-100">Product Manager</p>
+              <p className="mb-4 text-xs text-gray-100"></p>
               <p className="mb-4 text-xs tracking-wide text-gray-400">
-                Vincent Van Gogh’s most popular painting, The Starry Night.
+                
               </p>
               <div className="flex items-center justify-center space-x-3">
                 <a
@@ -86,11 +85,11 @@ const Testimonial = () => {
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Marta Clermont
+                FARMER
               </p>
-              <p className="mb-4 text-xs text-gray-100">Design Team Lead</p>
+              <p className="mb-4 text-xs text-gray-100"></p>
               <p className="mb-4 text-xs tracking-wide text-gray-400">
-                Amet I love liquorice jujubes pudding croissant I love pudding.
+               
               </p>
               <div className="flex items-center justify-center space-x-3">
                 <a
@@ -122,11 +121,11 @@ const Testimonial = () => {
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Anthony Geek
+                FOUNDER
               </p>
-              <p className="mb-4 text-xs text-gray-100">CTO, Lorem Inc.</p>
+              <p className="mb-4 text-xs text-gray-100"></p>
               <p className="mb-4 text-xs tracking-wide text-gray-400">
-                Apple pie macaroon toffee jujubes pie tart cookie caramels.
+                
               </p>
               <div className="flex items-center justify-center space-x-3">
                 <a
@@ -161,12 +160,11 @@ const Testimonial = () => {
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Benedict Caro
+                FARMER
               </p>
-              <p className="mb-4 text-xs text-gray-100">Frontend Developer</p>
+              <p className="mb-4 text-xs text-gray-100"></p>
               <p className="mb-4 text-xs tracking-wide text-gray-400">
-                I love cheese, especially airedale queso. Cheese and biscuits
-                halloumi.
+                
               </p>
               <div className="flex items-center justify-center space-x-3">
                 <a

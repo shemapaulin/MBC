@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
 	<>
-    <header className="p-4 dark:bg-yellow-100 dark:text-amber-900">
+    <header className="p-4 dark:bg-black dark:text-white">
          <div className="max-w-[85rem] mx-auto w-full px-4 sm:px-6 lg:px-8 ">
     <div className="flex items-center justify-end gap-x-5 w-full py-2 sm:pt-2 sm:pb-0 ">
-      <a className="inline-flex justify-center items-center gap-2 font-medium text-green-300 hover:text-amber-900 text-sm dark:text-lime-700 dark:hover:text-amber-900" href="#">
+      <a className="inline-flex justify-center items-center gap-2 font-medium text-white hover:text-amber-900 text-sm dark:text-white dark:hover:text-amber-900" href="#">
         <svg className="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"/><path d="M7 3.34V5a3 3 0 0 0 3 3v0a2 2 0 0 1 2 2v0c0 1.1.9 2 2 2v0a2 2 0 0 0 2-2v0c0-1.1.9-2 2-2h3.17"/><path d="M11 21.95V18a2 2 0 0 0-2-2v0a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"/><circle cx="12" cy="12" r="10"/></svg>
         English (US)
       </a>
-      <div className="inline-flex justify-center items-center gap-2 font-medium text-lime-700 hover:text-slate-500 text-sm dark:text-lime-700 dark:hover:text-amber-900" href="#">
+      <div className="inline-flex justify-center items-center gap-2 font-medium text-white hover:text-amber-900 text-sm dark:text-white dark:hover:text-amber-900" href="#">
       <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" >
 <path d="M13.5 2C13.5 2 15.8335 2.21213 18.8033 5.18198C21.7731 8.15183 21.9853 10.4853 21.9853 10.4853" stroke="#4d7c0f" stroke-width="1.5" stroke-linecap="round"/>
 <path d="M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829" stroke="#4d7c0f" stroke-width="1.5" stroke-linecap="round"/>

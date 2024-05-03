@@ -3,14 +3,14 @@ import finalLogo from "../assets/finalLogo.png";
 const footer = () => {
   return (
     <>
-      <footer className="px-4 divide-y bg-{#fef9c3} dark:text-gray-800">
+      <footer className="px-4 divide-y bg-{#fef9c3} dark:text-white">
         <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
           <div className="lg:w-1/3">
             <img src={finalLogo} alt="" className="w-[300px]" />
           </div>
           <div className=" text-sm  lg:w-2/3  flex justify-between ">
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase dark:text-gray-900">
+              <h3 className="tracking-wide uppercase dark:text-white">
                 Product
               </h3>
               <ul className="space-y-1">
@@ -89,7 +89,7 @@ const footer = () => {
           </div>
         </div>
         <div className="py-6 text-sm text-center dark:text-gray-600">
-          © 1968 Company Co. All rights reserved.
+          built by © <a href="" className="">SHEMA Paulin</a>
         </div>
       </footer>
     </>
