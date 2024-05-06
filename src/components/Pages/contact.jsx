@@ -12,7 +12,7 @@ const contact = () => {
 	<div className="flex flex-col justify-between">
 		<div className="space-y-2">
 			<h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-			<div className="dark:text-lime-600 text-lime-600">Send Us Your Message via the Form Beside......</div>
+			<div className="text-lime-600 text-lime-600">Send Us Your Message via the Form Beside......</div>
 		</div>
 		<img src="/contact.svg" alt="" className="p-6 h-52 md:h-64" />
 	</div>
@@ -29,7 +29,7 @@ const contact = () => {
 			<label htmlFor="message" className="text-sm">Message</label>
 			<textarea id="message" rows="3" className="w-full p-3 rounded dborder border-black bg-gray text-black"></textarea>
 		</div>
-		<button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-lime-600 bg-lime-600 dark:text-gray-50">Send Message</button>
+		<button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-lime-600 bg-lime-600 text-gray-50">Send Message</button>
 	</form>
 </div>
     </>

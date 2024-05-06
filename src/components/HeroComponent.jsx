@@ -27,7 +27,7 @@ const HeroComponent = () => {
           {/* Buttons */}
           <div className="text-center ">
             <a
-              className="animated-slideInLeft group inline-flex justify-center items-center gap-x-3 text-center bg-black from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-black/50 border border-transparent text-white text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800"
+              className="animated-slideInLeft group inline-flex justify-center items-center gap-x-3 text-center bg-black from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-black/50 border border-transparent text-white text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6focus:ring-offset-gray-800"
               href="/Contact"
             >
               Contact Now
@@ -57,9 +57,9 @@ const HeroComponent = () => {
       </div>
     </div>
 
-<div className="bg-black  dark:text-white border-lg">
-<div className="container grid grid-cols-12 mx-auto dark:bg-white">
-<div className="bg-no-repeat bg-cover dark:bg-gray-300 col-span-full lg:col-span-4" style={{ 
+<div className="bg-black text-white border-lg">
+<div className="container grid grid-cols-12 mx-auto bg-white">
+<div className="bg-no-repeat bg-coverbg-gray-300 col-span-full lg:col-span-4" style={{ 
 backgroundImage: `url(${beans})`, 
 backgroundPosition: 'center center', 
 backgroundBlendMode: 'multiply', 
@@ -68,16 +68,16 @@ backgroundSize: 'cover'
 
     <div className="flex flex-col p-3 col-span-full row-span-full lg:col-span-8 lg:p-10">
         <div className="flex justify-start">
-            <span className=" animated-slideInTop px-2 py-1 text-xs rounded-full text-sm font-medium text-bold bg-black dark:text-gray-50">Purpose</span>
+            <span className=" animated-slideInTop px-2 py-1 text-xs rounded-full text-sm font-medium text-bold bg-black text-gray-50">Purpose</span>
         </div>
         
-        <p className="flex-1 pt-2 text-2xl text-black">Mubuga Bio-Coffee is a company that is investing in Bio-Coffee
+        <p className="flex-1 pt-2 text-2xl text-black ">Mubuga Bio-Coffee is a company that is investing in Bio-Coffee
          to improve the livelihood of the local population
          while uplifting the Sector of Mubuga, commonly known by the negative effect of the genocide against the Tutsi in 1994….</p>
        
          <div className="text-center">  
           <a
-              className="animated-slideInLeft group inline-flex  gap-x-3 text-center bg-black from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-amber-900/50 border border-transparent text-white text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800"
+              className="animated-slideInLeft group inline-flex  gap-x-3 text-center bg-black from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-amber-900/50 border border-transparent text-white text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6focus:ring-offset-gray-800"
               href='/Garelly'
             >
              

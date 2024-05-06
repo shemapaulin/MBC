@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
 	<>
-    <header className="p-4 dark:bg-black dark:text-white">
+    <header className="p-4 bg-black text-white">
          <div className="max-w-[85rem] mx-auto w-full px-4 sm:px-6 lg:px-8 ">
     <div className="flex items-center justify-end gap-x-5 w-full py-2 sm:pt-2 sm:pb-0 ">
       <a className="inline-flex justify-center items-center gap-2 font-medium text-white hover:text-amber-900 text-sm dark:text-white dark:hover:text-amber-900" href="#">
