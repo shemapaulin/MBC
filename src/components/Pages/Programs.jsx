@@ -5,31 +5,19 @@ const Programs = () => {
     <>
    <div className="pb-10">
       <div
-        className="relative dark:bg-amber-950 bg-amber-950 from-violet-600/[.15]  via-transparent z-10 "
+        className="relative bg-gradient-to-r  from-white/[.15]  via-transparent z-10 "
       >
+
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 ">
         
 
           {/* Title */}
           <div className="max-w-3xl text-center mx-auto">
             <h1 className="block font-medium text-white text-4xl sm:text-5xl md:text-6xl lg:text-5xl animated-slideInBottom">
-              Programs 
-           {/** <TypeAnimation
-                sequence={[
-                  // Same substring at the start will only be typed out once, initially
-                  'About Us',
-                  1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  'Mubuga Bio Coffee [2020-2024]',
-                  1000,
-                ]}
-                wrapper="span"
-                speed={50}
-                style={{ fontSize: '1em', display: 'inline-block', paddingLeft:'5px', opacity: '1' }} // Adjust opacity here
-                repeat={Infinity}
-              />
-              **/}
+              Programs
+      
             </h1>
-             
+           
           </div>
           {/* End Title */}
 
@@ -51,8 +39,8 @@ const Programs = () => {
 <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   
   <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-lime-600 dark:text-lime-600">Programs Ahead</h2>
-    <p className="mt-1 text-gray-600 text-amber-950 dark:text-amber-950">Stay in the know with insights from industry experts.</p>
+    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-white">Programs Ahead</h2>
+    <p className="mt-1 text-gray-600 text-white">Stay in the know with insights from industry experts.</p>
   </div>
 
 
@@ -62,16 +50,16 @@ const Programs = () => {
     <a className="group" href="#">
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/beans.jpg"/>
-        <span className="absolute top-0 end-0 rounded-se-xl rounded-es-xl text-xs font-medium bg-lime-600 text-amber-950 py-1.5 px-3 dark:bg-lime-600">
+        <span className="absolute top-0 end-0 rounded-se-xl rounded-es-xl text-xs font-medium  text-white py-1.5 px-3 bg-black/60">
           Sponsored
         </span>
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-amber-950 group-hover:text-gray-600 dark:text-amber-950 ">
+        <h3 className="text-xl font-semibold  group-hover:text-gray-600 text-white ">
         International Coffee Day
         </h3>
-        <p className="mt-3 text-amber-950 dark:text-amber-950">
+        <p className="mt-3 text-white">
           Produce professional, reliable streams easily leveraging Preline's innovative broadcast studio
         </p>
         
@@ -84,10 +72,10 @@ const Programs = () => {
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-amber-950  dark:text-amber-950 ">
+        <h3 className="text-xl font-semibold text-white ">
           Charity Programs
         </h3>
-        <p className="mt-3 text-amber-950 dark:text-amber-950">
+        <p className="mt-3 text-white">
           Optimize your in-person experience with best-in-className capabilities like badge printing and lead retrieval
         </p>
         
@@ -100,10 +88,10 @@ const Programs = () => {
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold text-amber-950  dark:text-amber-950 ">
+        <h3 className="text-xl font-semibold text-white ">
           Genocide Memorial Program
         </h3>
-        <p className="mt-3 text-amber-950 dark:text-amber-950">
+        <p className="mt-3 text-white">
           Optimize your in-person experience with best-in-className capabilities like badge printing and lead retrieval
         </p>
         
@@ -115,11 +103,11 @@ const Programs = () => {
 
 
 
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16 mx-auto bg-amber-950">
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16 mx-auto bg-white">
   <div class="grid md:grid-cols-2 gap-8">
     <div class="max-w-md">
       <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-lime-600 dark:text-lime-600">Subscribe</h2>
-      <p class="mt-3 text-gray-600 dark:text-white text-white">
+      <p class="mt-3 text-gray-600  text-black">
         Subscribe For New Programs Ahead So that you can be updated anytime....
       </p>
     </div>

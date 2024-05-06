@@ -1,7 +1,5 @@
-
-import product from '../assets/product.jpg'
-import { TypeAnimation } from "react-type-animation";
 import beans from '../assets/beans.jpg'
+import hiro1 from '../assets/hiro1.jpg'
 
 
 const HeroComponent = () => {
@@ -10,9 +8,9 @@ const HeroComponent = () => {
     <>
     <div className="pb-10  ">
       <div
-        className="relative bg-gradient-to-r from-violet-600/[.15] h-90 via-transparent z-10 "
+        className="relative bg-gradient-to-r from-violet-600/[.15] h-90 via-transparent z-10 object-bottom" 
         style={{
-          backgroundImage: `url(${product})`,
+          backgroundImage: `url(${hiro1})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -30,9 +28,9 @@ const HeroComponent = () => {
           <div className="text-center ">
             <a
               className="animated-slideInLeft group inline-flex justify-center items-center gap-x-3 text-center bg-black from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-black/50 border border-transparent text-white text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800"
-              href="#"
+              href="/contact"
             >
-              Book Now
+              Contact Now
               <svg
                 className="flex-shrink-0 size-4"
                 xmlns="http://www.w3.org/2000/svg"

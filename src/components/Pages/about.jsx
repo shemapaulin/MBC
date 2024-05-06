@@ -2,6 +2,8 @@
 import ProjectItem from "./projectItem";
 import { FaPlane,FaLifeRing } from 'react-icons/fa';
 
+
+
 const About = () => {
   return (
     <>
@@ -17,20 +19,7 @@ const About = () => {
           <div className="max-w-3xl text-center mx-auto">
             <h1 className="block font-medium text-white text-4xl sm:text-5xl md:text-6xl lg:text-5xl animated-slideInBottom">
               About 
-           {/** <TypeAnimation
-                sequence={[
-                  // Same substring at the start will only be typed out once, initially
-                  'About Us',
-                  1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  'Mubuga Bio Coffee [2020-2024]',
-                  1000,
-                ]}
-                wrapper="span"
-                speed={50}
-                style={{ fontSize: '1em', display: 'inline-block', paddingLeft:'5px', opacity: '1' }} // Adjust opacity here
-                repeat={Infinity}
-              />
-              **/}
+      
             </h1>
             <h1 className='animated-slideInTop text-lime-900 block font-medium text-white text-4xl sm:text-5xl md:text-6xl lg:text-5xl'>Us</h1> 
           </div>
@@ -139,8 +128,8 @@ const About = () => {
         time-tested principles.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img="/boiintog.PNG" title="Mrs mama Lyna" link="https://codenetbeta.com/" />
-        <ProjectItem img="/mubugaint.PNG" title="Kanyandekwe" link="https://game-hub-shema-paulins-projects-954e3218.vercel.app/" />
+        <ProjectItem img="/boiintog.PNG" title="XXXX" link="https://codenetbeta.com/" />
+        <ProjectItem img="/mubugaint.PNG" title="XXXX" link="https://game-hub-shema-paulins-projects-954e3218.vercel.app/" />
       </div>
     </div>
     {/**end second */}
@@ -207,37 +196,7 @@ const About = () => {
 
 {/**steps*/}
 
-<section className="bg-white text-black">
-	<div className="container max-w-5xl px-4 py-12 mx-auto">
-		<div className="grid gap-4 mx-4 sm:grid-cols-12">
-			<div className="col-span-12 sm:col-span-3">
-				<div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-lime-900">
-					<h3 className="text-3xl font-semibold">Plantation</h3>
-					<span className="text-sm font-bold tracking-wider uppercase dark:text-gray-600">process....</span>
-				</div>
-			</div>
-			<div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
-				<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-300">
-					<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-lime-900">
-						<h3 className="text-xl font-semibold tracking-wide">Donec porta enim vel </h3>
-						<time className="text-xs tracking-wide uppercase dark:text-gray-600">Dec 2020</time>
-						<p className="mt-3">Pellentesque feugiat ante at nisl efficitur, in mollis orci scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-					</div>
-					<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1]  before:dark:bg-lime-900">
-						<h3 className="text-xl font-semibold tracking-wide">Aliquam sit amet nunc ut</h3>
-						<time className="text-xs tracking-wide uppercase dark:text-gray-600">Jul 2019</time>
-						<p className="mt-3">Morbi vulputate aliquam libero non dictum. Aliquam sit amet nunc ut diam aliquet tincidunt nec nec dui. Donec mollis turpis eget egestas sodales.</p>
-					</div>
-					<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-lime-900">
-						<h3 className="text-xl font-semibold tracking-wide">Pellentesque habitant morbi</h3>
-						<time className="text-xs tracking-wide uppercase dark:text-gray-600">Jan 2016</time>
-						<p className="mt-3">Suspendisse tincidunt, arcu nec faucibus efficitur, justo velit consectetur nisl, sit amet condimentum lacus orci nec purus. Mauris quis quam suscipit, vehicula felis id, vehicula enim.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+
 
 
 
@@ -250,120 +209,44 @@ const About = () => {
   
   <div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover" src="/founder3.JPG" alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          David Forren
+        Mr NGOBOKA David
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Founder / CEO
+          XXXX
         </p>
       </div>
     </div>
     
 
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover " src="/"  alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Amil Evara
+        Mrs MUTONIWASE Marie Claire
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          UI/UX Designer
+          XXXX
         </p>
       </div>
     </div>
     
 
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-top" src='/founder2.JPG' alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Ebele Egbuna
+         Mr BAHUNDE Etiene
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Support Consultant
+          XXXX
         </p>
       </div>
     </div>
     
 
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Maria Powers
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Director of sales
-        </p>
-      </div>
-    </div>
-    
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Delia Pawelke
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Front-end Developer
-        </p>
-      </div>
-    </div>
-    
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1624224971170-2f84fed5eb5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Tom Lowry
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          UI/UX Designer
-        </p>
-      </div>
-    </div>
-   
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Louise Donadieu
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Support Consultant
-        </p>
-      </div>
-    </div>
-   
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1514222709107-a180c68d72b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Jeff Fisher
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Project Manager
-        </p>
-      </div>
-    </div>
-    
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1602452920335-6a132309c7c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Sophia Harrington
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Project Manager
-        </p>
-      </div>
-    </div>
    
   </div>
  
