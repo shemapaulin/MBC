@@ -1,12 +1,13 @@
 
-import impact from '../assets/beans.jpg'
+import impact from '../assets/imbuto.jpg'
+
 
 const Impact = () => {
   return (
-    <div className="dark:bg-white bg-white dark:text-black" data-aos="fade-left">
+    <div className="bg-white bg-white text-black" data-aos="fade-left">
 	<div className="container grid grid-cols-12 mx-auto">
-  <div className="flex flex-col justify-center col-span-12 align-middle bg-no-repeat bg-cover dark:bg-gray-700 lg:col-span-6 lg:h-auto" style={{ backgroundImage: `url(${impact})`, backgroundPosition: 'center center', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
-			<div className="flex flex-col items-center dark:text-white text-white p-8 py-12 text-center" data-aos="fade-up">
+  <div className="flex flex-col justify-center col-span-12 align-middle bg-no-repeat bg-cover bg-gray-700 lg:col-span-6 lg:h-auto" style={{ backgroundImage: `url(${impact})`, backgroundPosition: 'center center', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+			<div className="flex flex-col items-center text-white text-white p-8 py-12 text-center" data-aos="fade-up">
 				<h1 className="py-4 text-5xl  font-bold">Mubuga Bio Coffee's Impact</h1>
 				<p className="pb-6">we go by turning your expections into satisfactions</p>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-7 h-7">
@@ -14,7 +15,7 @@ const Impact = () => {
 				</svg>
 			</div>
 		</div>
-		<div className="flex flex-col col-span-12 p-6 divide-y lg:col-span-6 lg:p-10 dark:divide-gray-700">
+		<div className="flex flex-col col-span-12 p-6 divide-y lg:col-span-6 lg:p-10 divide-gray-700">
 			<div className="pt-6 pb-4 space-y-2" data-aos="fade-right">
 				<h1 className="text-3xl font-bold">Coffee Naturality:</h1>
 				<p>We provide the pure coffee beans which is on legal standard on the market, which keep raising Rwandan flag Internationaly   </p>
