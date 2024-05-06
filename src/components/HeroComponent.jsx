@@ -27,11 +27,13 @@ const HeroComponent = () => {
 
           {/* Buttons */}
           <div className="text-center ">
-            <Link
+            <a
               className="animated-slideInLeft group inline-flex justify-center items-center gap-x-3 text-center bg-black from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-black/50 border border-transparent text-white text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6focus:ring-offset-gray-800"
-              to="/Contact"
+              href="/Contact"
             >
+              <Link to="/Contact"> 
               Contact Now
+              </Link>
               <svg
                 className="flex-shrink-0 size-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +48,7 @@ const HeroComponent = () => {
               >
                 <path d="m9 18 6-6-6-6" />
               </svg>
-            </Link>
+            </a>
           </div>
           {/* End Buttons */}
 
