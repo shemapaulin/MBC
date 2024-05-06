@@ -200,14 +200,13 @@ const About = () => {
 
 
 
-
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto ">
   
   <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
     <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Our leadership</h2>
   </div>
   
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 justify-center sm:flex sm:flex-row sm:items-center">
     <div class="text-center">
       <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover" src="/founder3.JPG" alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
@@ -237,7 +236,7 @@ const About = () => {
     <div class="text-center">
       <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-top" src='/founder2.JPG' alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg text-neutral-200 md:bg-red">
          Mr BAHUNDE Etiene
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
@@ -249,8 +248,9 @@ const About = () => {
 
    
   </div>
- 
 </div>
+
+
 
     </>
   )
