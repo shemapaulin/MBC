@@ -1,5 +1,6 @@
 import beans from '../assets/beans.jpg'
 import hiro1 from '../assets/hiro1.jpg'
+import { Link } from 'react-router-dom'
 
 
 const HeroComponent = () => {
@@ -26,9 +27,9 @@ const HeroComponent = () => {
 
           {/* Buttons */}
           <div className="text-center ">
-            <a
+            <Link
               className="animated-slideInLeft group inline-flex justify-center items-center gap-x-3 text-center bg-black from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-black/50 border border-transparent text-white text-sm font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6focus:ring-offset-gray-800"
-              href="/Contact"
+              to="/Contact"
             >
               Contact Now
               <svg
@@ -45,7 +46,7 @@ const HeroComponent = () => {
               >
                 <path d="m9 18 6-6-6-6" />
               </svg>
-            </a>
+            </Link>
           </div>
           {/* End Buttons */}
 
