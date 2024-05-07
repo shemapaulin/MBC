@@ -1,14 +1,4 @@
 
-import one from '../assets/one.jpg'
-import two from '../assets/two.jpg'
-import three from '../assets/three.jpg'
-import four from '../assets/four.jpg'
-import big1 from '../assets/big1.jpg'
-import five from '../assets/five.jpg'
-import six from '../assets/six.jpg'
-import seven from '../assets/seven.jpg'
-import eight from '../assets/eight.jpg'
-import big2 from '../assets/big2.jpg'
 
 
 
