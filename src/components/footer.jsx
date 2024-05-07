@@ -100,7 +100,7 @@ const footer = () => {
                   </Link>
                 </a>
                 <a className="" href="">
-                  <Link to='#'>
+                  <Link to='https://www.youtube.com/@mubugabiocoffee2098'>
                 <FaYoutube className="w-6 h-6" />
                   </Link>
                 </a>
