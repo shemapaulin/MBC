@@ -62,10 +62,14 @@ const About = () => {
     <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
       <div>
         <h3 class="text-lg font-semibold text-white ">
-          When/Why Did Mubuga Bio Coffee Born?
+          WHAT ABOUT MUBUGA BIO COFFEE?
         </h3>
         <p class="mt-2 text-white ">
-          Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.
+        Mubuga Bio-Coffee is a company that is investing in organic or Bio-Coffee to improve the livelihood 
+        of the local population while uplifting the Sector of Mubuga, commonly known by the negative effect of the genocide
+         against the Tutsi in 1994. The Mubuga sector has not effectively risen from the ashes of the genocide against the Tutsi as it can be 
+         observed when analysing its socio-economic status. Mubuga Bio Coffee comes as
+         a workable solution to contribute to reducing the Rwandan trade deficit, while satisfying the world demand of the Bio-Coffee
         </p>
       </div>
       
@@ -85,7 +89,10 @@ const About = () => {
           Why Mubuga Location?
         </h3>
         <p class="mt-2 text-white">
-          Our subscriptions are tiered. Understanding the task at hand and ironing out the wrinkles is key.
+        The Mubuga sector has not effectively risen from the ashes of the genocide against the Tutsi as 
+        it can be observed when analyzing its socio-economic data. A coffee farming project would reunify the locals and reduce the
+         poverty while reassuring their brighter future. Also our project 
+        comes as a workable solution to contribute to reducing the Rwandan trade deficit, while satisfying the world demand of the Bio Coffee.
         </p>
       </div>
 
@@ -100,14 +107,7 @@ const About = () => {
       </div>
     
 
-      <div>
-        <h3 class="text-lg font-semibold text-white">
-          How Big Is The Production?
-        </h3>
-        <p class="mt-2 text-white">
-          We've built in discounts at each tier for teams. The time has come to bring those ideas and plans to life.
-        </p>
-      </div>
+      
      
 
      
@@ -212,10 +212,10 @@ const About = () => {
       <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover" src="/founder3.JPG" alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg text-neutral-200">
-        Mr NGOBOKA David
+        MR. David Ngoboka
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base text-neutral-400">
-          XXXX
+          Managing Director
         </p>
       </div>
     </div>
@@ -225,10 +225,11 @@ const About = () => {
       <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover " src="/"  alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg text-neutral-200">
-        Mrs MUTONIWASE Marie Claire
+        MS. Marie Claire Umutoniwase
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base text-neutral-400">
-          XXXX
+        Director of Administration and Finance
+
         </p>
       </div>
     </div>
@@ -238,10 +239,11 @@ const About = () => {
       <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-top" src='/founder2.JPG' alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg text-neutral-200 md:bg-red">
-         Mr BAHUNDE Etiene
+        MR. Etienne Bahunde
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base text-neutral-400">
-          XXXX
+        Head of Production
+
         </p>
       </div>
     </div>

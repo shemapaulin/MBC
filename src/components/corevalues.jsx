@@ -17,50 +17,50 @@ const corevalues = () => {
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                 <span className="text-xl font-bold md:text-2xl">
-                  Hard Working
+                Quality
                 </span>
                 <span className="mt-4  text-gray-100">
-                  As we're highly ambitioned company, we do our best to get job done in short time. our workers they're well treated so highly encouraged 
+                We shall provide quality Bio-Coffee that gives outstanding value to our range of customers 
                 </span>
               </div>
             </div>
             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
               <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-               <FaBalanceScale className="w-16 h-16 text-white" />
+              <FaStamp className="w-16 h-16 text-white" />
+              
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                 <span className="text-xl font-bold md:text-2xl">
-                  Loyalty
+                Customer Commitment
                 </span>
                 <span className="mt-4  text-gray-100">
-                 we're among of trustable companies in country, during partenership with our parterners and also between us and our clients, we go for loyalty  
+                MUBUGA BIO COFFEE Ltd develops long-term and mutually beneficial relationships between our customers and us  
                 </span>
               </div>
             </div>
             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
               <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-               <FaStamp className="w-16 h-16 text-white" />
+              <FaBalanceScale className="w-16 h-16 text-white" />
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                 <span className="text-xl font-bold md:text-2xl">
-                  Professionalism
+                Integrity 
                 </span>
                 <span className="mt-4  text-gray-100">
-                 Our profesionalism appears when it comes about quality of coffee and goals or vision of ours  
+                MUBUGA BIO COFFEE Ltd upholds the highest standard of trust, honesty, moral and ethical principles
                 </span>
               </div>
             </div>
             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
               <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-               <FaHandHoldingHeart className="w-16 h-16 text-white" />
+               <FaHandsHelping className="w-16 h-16 text-white" />
               </div>
               <div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
                 <span className="text-xl font-bold md:text-2xl">
-                  Humanity
+                Team Work
                 </span>
                 <span className="mt-4  text-gray-100">
-                we improve the livelihood of the local population
-         while uplifting the Sector of Mubuga, commonly known by the negative effect of the genocide against the Tutsi in 1994
+                We are one team with commitment and healthy conflict, pulling in the same direction.
                 </span>
               </div>
             </div>

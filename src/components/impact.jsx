@@ -17,25 +17,28 @@ const Impact = () => {
 		</div>
 		<div className="flex flex-col col-span-12 p-6 divide-y lg:col-span-6 lg:p-10 divide-gray-700">
 			<div className="pt-6 pb-4 space-y-2" data-aos="fade-right">
-				<h1 className="text-3xl font-bold">Coffee Naturality:</h1>
-				<p>We provide the pure coffee beans which is on legal standard on the market, which keep raising Rwandan flag Internationaly   </p>
+				<h1 className="text-3xl font-bold">BIO COFFEE:</h1>
+				<p>Coffee is the first generating revenues among Cash crops in Rwanda. Rwandan Coffee is worldwide appreciated,
+					 but the country’s supply is yet to satisfy the world demand. Rwanda has a lot of coffee producers with slight differences in quality.
+					  The Coffee business employs a number of casual laborers who change their livelihood as Companies move on due to monetization of the rural areas. 
+					The scarcity and uniqueness of Bio-Coffee in Rwanda and its world demand are the motivating factors to embark on the Bio-coffee business </p>
 				
 			</div>
 			<div className="pt-6 pb-4 space-y-2" data-aos="fade-left">
-				<h1 className="text-3xl font-bold">Country Pride :</h1>
-				<p>As we provide the natural Rwandan coffee which is well treated since to the farm to the market, that leads to the win of Rwandan Coffee in Internatinal Coffee Competitions , and also feedback on coffee from country tourists are very encouraging  </p>
+				<h1 className="text-3xl font-bold">ENVIRONMENTAL PROTECTION AT THE FORE FRONT:</h1>
+				<p>Currently, Rwanda is heavily using fertilizers that have got a significant impact on the environment.
+					 Pointless to mention the effects this has caused to the apiculture! As Mubuga Sector is located in elevated altitude and is mountainous,
+					  one of the objectives the company is premised on is the environmental protection. Being hilly, the loss of soil from land surfaces due to
+					   erosion is very high and this adversely affects the productivity as the environmental protection techniques are yet to be maximized</p>
 				
 			</div>
       <div className="pt-6 pb-4 space-y-2" data-aos="fade-right">
-				<h1 className="text-3xl font-bold">Soil Security :</h1>
-				<p>Our coffee plantaion helps to maintain envirnoments, Our plantion covers 200hm of soil which prevents them from climate change effects such as soil erusion,etc . </p>
+				<h1 className="text-3xl font-bold">WOMEN AND YOUTH:</h1>
+				<p>Mubuga Bio Coffee targets to group together unemployed youth, Women and youth in self governed cooperatives. Those types of cooperatives are currently lacking in Mubuga Sector, one of the very poor sectors in Rwanda. The poverty in that area is connected to effects of 1994 genocide against the Tutsi that left poor widows and orphans with no significant income to pull themselves from poverty. The Company will train them and enhance their management skills.
+					 Working together in generating income projects will not only improve their well being but will also enhance the unity amongst them</p>
 				
 			</div>
-			<div className="pt-6 pb-4 space-y-2" data-aos="fade-left">
-				<h1 className="text-3xl font-bold">Society:</h1>
-				<p>Though We focus on improving livelihood of the local population while uplifting the Sector of Mubuga, we're also on frontline to heal the effects of Genocide  against the Tutsi in 1994 on savivors, and also uplifting lives of farmers by giving jobs to them. </p>
-				
-			</div>
+			
 		</div>
 	</div>
 </div>
