@@ -1,6 +1,8 @@
 
 import ProjectItem from "./projectItem";
 import { FaPlane,FaLifeRing } from 'react-icons/fa';
+import cofeplanter from '../../assets/cofeplanter2.jpg';
+
 
 
 
@@ -10,6 +12,12 @@ const About = () => {
     <div className="pb-10">
       <div
         className="relative bg-gradient-to-r  from-white/[.15]  via-transparent z-10 "
+        style={{ 
+          backgroundImage: `url(${cofeplanter})`, 
+          backgroundPosition: 'center center', 
+          backgroundBlendMode: 'multiply', 
+          backgroundSize: 'cover' 
+          }}
       >
 
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 ">

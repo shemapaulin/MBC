@@ -16,24 +16,32 @@ const footer = () => {
               </h3>
               <ul className="space-y-1">
                 <li>
+                  <Link to="/Garelly">
                   <a rel="noopener noreferrer" href="/Garelly">
                     Garelly
                   </a>
+                  </Link>
                 </li>
                 <li>
+                <Link to='/Programs'>
                   <a rel="noopener noreferrer" href="/Programs">
                     programs
                   </a>
+                  </Link>
                 </li>
                 <li>
+                  <Link to='/About'>
                   <a rel="noopener noreferrer" href="/About">
                     about
                   </a>
+                  </Link>
                 </li>
                 <li>
+                  <Link to='/Contact'>
                   <a rel="noopener noreferrer" href='/Contact'>
                     contact
                   </a>
+                  </Link>
                 </li>
               </ul>
             </div>
