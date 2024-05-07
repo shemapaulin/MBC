@@ -1,6 +1,7 @@
 
 import { FaYoutube } from 'react-icons/fa'
 import p3 from '../assets/p3.jpg'
+import { Link } from 'react-router-dom'
 
 const Testimonial = () => {
   return (
@@ -60,7 +61,9 @@ const Testimonial = () => {
                   href="/"
                   className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                 >
+                  <Link to='https://www.youtube.com/watch?v=A2CczIrABwU'>
                   <FaYoutube />
+                  </Link>
                 </a>
                
               </div>
@@ -103,7 +106,7 @@ const Testimonial = () => {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
           <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src='/gaspard.PNG'
+              src='/david.PNG'
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -115,12 +118,14 @@ const Testimonial = () => {
                 
               </p>
               <div className="flex items-center justify-center space-x-3">
-               
+             
                  <a
                   href="/"
                   className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                 >
+                   <Link to='https://www.youtube.com/watch?v=A2CczIrABwU'>
                   <FaYoutube />
+                  </Link>
                 </a>
                 
                

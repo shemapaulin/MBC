@@ -158,7 +158,7 @@ const About = () => {
               High quality Co-Living spaces
             </h3>
             <p class="mt-1 text-white text-white">
-              Our fully furnished spaces are designed and purpose-built with Co-Living in mind, featuring high-end finishes and amenities that go far beyond traditional apartment buildings.
+            We shall provide quality Bio-Coffee that gives outstanding value to our range of customers
             </p>
           </div>
         </div>
@@ -170,7 +170,7 @@ const About = () => {
               Our Production Overseas 
             </h3>
             <p class="mt-1 text-white text-white">
-              Our passion is bringing people together. Beyond creating beautiful spaces, we provide shared experiences.
+              We shall provide quality Bio-Coffee in either local or grobal industries
             </p>
           </div>
         </div>
@@ -182,7 +182,7 @@ const About = () => {
               Local Life Changing
             </h3>
             <p class="mt-1 text-white text-white">
-              We worry about the details so that our residents don't have to. From our online application process to simple, all-inclusive billing we aim to make the living experience as effortless as possible.
+          Our soil coverage touches to the 3 sectors (Mubuga, Gishyita and Rwankuba) of districts , that exactly means local life changing because we provide jobs to a lot of men and women plus youths. It helps them to increase thier family Economic.
             </p>
           </div>
         </div>
