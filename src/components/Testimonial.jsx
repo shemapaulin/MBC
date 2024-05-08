@@ -45,7 +45,7 @@ const Testimonial = () => {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/boiintog.PNG"
+              src="/david.PNG"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -62,7 +62,7 @@ const Testimonial = () => {
                   className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                 >
                   <Link to='https://www.youtube.com/watch?v=A2CczIrABwU'>
-                  <FaYoutube />
+                  <FaYoutube className='text-red-800 w-5 h-5 ' />
                   </Link>
                 </a>
                
@@ -94,7 +94,9 @@ const Testimonial = () => {
                   href="/"
                   className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                 >
-                  <FaYoutube />
+                  <Link to='https://www.youtube.com/watch?v=2iaHhbSj_KM'>
+                  <FaYoutube className='text-red-800 w-5 h-5 '/>
+                  </Link>
                 </a>
                 </a>
                 
@@ -106,7 +108,7 @@ const Testimonial = () => {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
           <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src='/david.PNG'
+              src='/boiintog.PNG'
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -124,7 +126,7 @@ const Testimonial = () => {
                   className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                 >
                    <Link to='https://www.youtube.com/watch?v=A2CczIrABwU'>
-                  <FaYoutube />
+                  <FaYoutube className='text-red-800 w-5 h-5 '/>
                   </Link>
                 </a>
                 
@@ -140,7 +142,7 @@ const Testimonial = () => {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
           <img
               className="object-cover sm:object-cover w-full h-56 md:h-64 xl:h-80"
-              src={p3}
+              src='/byuku.PNG'
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -153,10 +155,12 @@ const Testimonial = () => {
               </p>
               <div className="flex items-center justify-center space-x-3">
                 <a
-                  href="/"
+                  href="https://www.youtube.com/watch?v=IdNHuUxN1kU"
                   className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                 >
-                  <FaYoutube />
+                  <Link to='https://www.youtube.com/watch?v=IdNHuUxN1kU'>
+                  <FaYoutube className='text-red-800 w-5 h-5 ' />
+                  </Link>
                 </a>
               </div>
             </div>

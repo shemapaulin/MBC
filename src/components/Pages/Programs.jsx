@@ -6,6 +6,7 @@ const Programs = () => {
    <div className="pb-10">
       <div
         className="relative bg-gradient-to-r  from-white/[.15]  via-transparent z-10 "
+        
       >
 
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 ">
@@ -40,7 +41,7 @@ const Programs = () => {
   
   <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
     <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-white">Programs Ahead</h2>
-    <p className="mt-1 text-gray-600 text-white">Stay in the know with insights from industry experts.</p>
+    
   </div>
 
 
@@ -50,17 +51,16 @@ const Programs = () => {
     <a className="group" href="#">
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/beans.jpg"/>
-        <span className="absolute top-0 end-0 rounded-se-xl rounded-es-xl text-xs font-medium  text-white py-1.5 px-3 bg-black/60">
-          Sponsored
-        </span>
+       
       </div>
 
       <div className="mt-7">
-        <h3 className="text-xl font-semibold  group-hover:text-gray-600 text-white ">
+        <h3 className="text-xl font-semibold   text-white ">
         International Coffee Day
         </h3>
         <p className="mt-3 text-white">
-          Produce professional, reliable streams easily leveraging Preline's innovative broadcast studio
+        International Coffee Day is a global celebration of coffee's cultural impact and the millions of people involved in its production,
+         from farmers to baristas. Observed on October 1st, it honors the beverage enjoyed by people worldwide.
         </p>
         
       </div>
@@ -69,6 +69,9 @@ const Programs = () => {
     <a className="group" href="#">
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/5.jpg"/>
+        <span className="absolute top-0 end-0 rounded-se-xl rounded-es-xl text-xs font-medium  text-white py-1.5 px-3 bg-black/60">
+          Sponsored
+        </span>
       </div>
 
       <div className="mt-7">
@@ -76,7 +79,7 @@ const Programs = () => {
           Charity Programs
         </h3>
         <p className="mt-3 text-white">
-          Optimize your in-person experience with best-in-className capabilities like badge printing and lead retrieval
+         In partenership with district and sector leaderships, we help community. 
         </p>
         
       </div>
@@ -92,7 +95,7 @@ const Programs = () => {
           Genocide Memorial Program
         </h3>
         <p className="mt-3 text-white">
-          Optimize your in-person experience with best-in-className capabilities like badge printing and lead retrieval
+          During the Genocide memorial period, as all Rwandans we unite to remember as we contribute in many programs of helping servivors.
         </p>
         
       </div>
