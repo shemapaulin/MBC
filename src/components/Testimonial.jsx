@@ -34,7 +34,7 @@ const Testimonial = () => {
             </svg>
             
           </span>{' '}
-          Testimanies
+          Testimonies
         </h2>
         <p className="text-base text-white md:text-lg">
           Founders and Farm workers
