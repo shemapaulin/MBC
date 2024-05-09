@@ -126,7 +126,7 @@ const About = () => {
         
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img="/boiintog.PNG" title="MS. Marie Claire Umutoniwase" link="https://www.youtube.com/watch?v=A2CczIrABwU" />
+        <ProjectItem img="/boiintog.PNG" title="MRS Marie Claire Umutoniwase" link="https://www.youtube.com/watch?v=A2CczIrABwU" />
         <ProjectItem img="/rurangwa.PNG" title="Mr Rurangwa Raphael" link="https://www.youtube.com/watch?v=cu5L-2ffcS0" />
       </div>
     </div>
