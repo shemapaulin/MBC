@@ -50,7 +50,7 @@ const Programs = () => {
     
     <a className="group" href="#">
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715347468/kabiri_o3nyez.jpg"/>
+        <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/beans.jpg"/>
        
       </div>
 

@@ -11,7 +11,7 @@ const HeroComponent = () => {
       <div
         className="relative bg-gradient-to-r from-violet-600/[.15] h-90 via-transparent z-10 object-bottom" 
         style={{
-          backgroundImage: `url(https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715346464/hiro1_m8d7bi.jpg)`,
+          backgroundImage: `url(${hiro1})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

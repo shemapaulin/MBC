@@ -3,13 +3,16 @@ import ProjectItem from "./projectItem";
 import { FaPlane,FaLifeRing } from 'react-icons/fa';
 import forabout from '../../assets/forabout.jpg';
 
+
+
+
 const About = () => {
   return (
     <>
     <div className="pb-10">
       <div
         className="relative bg-gradient-to-r  from-white/[.15]  via-transparent z-10 "style={{
-          backgroundImage: `url(https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715346569/beans_erzgez.jpg)`,
+          backgroundImage: `url(${forabout})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -119,8 +122,8 @@ const About = () => {
         
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img="https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715346745/boiintog_mjtlcn.png" title="MRS Marie Claire Umutoniwase" link="https://www.youtube.com/watch?v=A2CczIrABwU" />
-        <ProjectItem img="https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715346768/rurangwa_cyta3w.png" title="Mr Rurangwa Raphael" link="https://www.youtube.com/watch?v=cu5L-2ffcS0" />
+        <ProjectItem img="/boiintog.PNG" title="MRS Marie Claire Umutoniwase" link="https://www.youtube.com/watch?v=A2CczIrABwU" />
+        <ProjectItem img="/rurangwa.PNG" title="Mr Rurangwa Raphael" link="https://www.youtube.com/watch?v=cu5L-2ffcS0" />
       </div>
     </div>
     {/**end second */}
@@ -197,7 +200,7 @@ const About = () => {
   
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 justify-center sm:flex sm:flex-row sm:items-center">
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover" src="https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715346423/david_ldg5re.jpg" alt="Image Description"/>
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover" src="/david.jpg" alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg text-neutral-200">
         MR. David Ngoboka
@@ -210,7 +213,7 @@ const About = () => {
     
 
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-top" src="https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715346571/fififoto_a81j62.jpg"  alt="Image Description"/>
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-top" src="/fififoto.jpeg"  alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg text-neutral-200">
         MRS. Marie Claire Umutoniwase
@@ -224,7 +227,7 @@ const About = () => {
     
 
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-top" src='https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715346490/founder2_sszz7o.jpg' alt="Image Description"/>
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-top" src='/founder2.JPG' alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg text-neutral-200 md:bg-red">
         MR. Etienne Bahunde

@@ -6,7 +6,7 @@ const Impact = () => {
   return (
     <div className="bg-white bg-white text-black" data-aos="fade-left">
 	<div className="container grid grid-cols-12 mx-auto">
-  <div className="flex flex-col justify-center col-span-12 align-middle bg-no-repeat bg-cover bg-gray-700 lg:col-span-6 lg:h-auto" style={{ backgroundImage: `url(https://res.cloudinary.com/dwhuyfuxn/image/upload/v1715346512/imbuto_udd1mw.jpg)`, backgroundPosition: 'center center', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
+  <div className="flex flex-col justify-center col-span-12 align-middle bg-no-repeat bg-cover bg-gray-700 lg:col-span-6 lg:h-auto" style={{ backgroundImage: `url(${impact})`, backgroundPosition: 'center center', backgroundBlendMode: 'multiply', backgroundSize: 'cover' }}>
 			<div className="flex flex-col items-center text-white text-white p-8 py-12 text-center" data-aos="fade-up">
 				<h1 className="py-4 text-5xl  font-bold">Mubuga Bio Coffee's Impact</h1>
 				<p className="pb-6">we go by turning your expections into satisfactions</p>
