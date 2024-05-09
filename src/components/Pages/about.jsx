@@ -233,7 +233,7 @@ const About = () => {
     
 
     <div class="text-center">
-      <img class="rounded-xl sm:size-60   lg:h-40 mx-auto object-cover object-top" src='/founder2.JPG' alt="Image Description"/>
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto object-cover object-top" src='/founder2.JPG' alt="Image Description"/>
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg text-neutral-200 md:bg-red">
         MR. Etienne Bahunde
