@@ -1,7 +1,6 @@
 
 import ProjectItem from "./projectItem";
 import { FaPlane,FaLifeRing } from 'react-icons/fa';
-import forabout from '../../assets/forabout.jpg';
 
 
 
