@@ -12,7 +12,7 @@ const About = () => {
     <div className="pb-10">
       <div
         className="relative bg-gradient-to-r  from-white/[.15]  via-transparent z-10 "style={{
-          backgroundImage: `url(${forabout})`,
+          backgroundImage: `url(/beans.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
