@@ -141,9 +141,7 @@ const About = () => {
         <h2 class="text-3xl text-white font-bold lg:text-4xl text-white">
           Our vision
         </h2>
-        <p class="mt-3 text-white text-white">
-          For as long as there have been cities, the public square has been a fundamental part of the urban landscape - an open, approachable space to meet and engage with friends and neighbours. Space aims to capture this spirit of bringing people together in an exciting, welcoming environment.
-        </p>
+        
       </div>
 
       <div class="space-y-6 lg:space-y-10">
