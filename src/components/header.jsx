@@ -30,16 +30,16 @@ const Header = () => {
 		</Link>
 		<ul className="items-stretch hidden space-x-3 md:flex">
 			<li className="flex">
-				<Link rel="noopener noreferrer" to="/" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">HOME</Link>
+				<Link  to="/" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">HOME</Link>
 			</li>
 			<li className="flex">
-				<Link rel="noopener noreferrer" to="#/about" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</Link>
+				<Link  to="/about" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</Link>
 			</li>
 			<li className="flex">
-				<Link rel="noopener noreferrer" to="/Programs" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border- ">PROGRAMS</Link>
+				<Link to="/programs" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border- ">PROGRAMS</Link>
 			</li>
 			<li className="flex">
-				<Link rel="noopener noreferrer" to="/Contact" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border-">CONTACT</Link>
+				<Link to="/contact" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border-">CONTACT</Link>
 			</li>
 		</ul>
 		
