@@ -33,7 +33,7 @@ const Header = () => {
 				<Link rel="noopener noreferrer" to="/" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">HOME</Link>
 			</li>
 			<li className="flex">
-				<Link rel="noopener noreferrer" to="/About" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</Link>
+				<Link rel="noopener noreferrer" to="#/about" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-">ABOUT</Link>
 			</li>
 			<li className="flex">
 				<Link rel="noopener noreferrer" to="/Programs" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:border- ">PROGRAMS</Link>
