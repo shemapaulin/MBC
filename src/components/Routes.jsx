@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRoutes, useNavigate } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Home from './Home';
 import About from './Pages/about'
 import Programs from './Pages/Programs';
@@ -35,7 +36,11 @@ const MainRoutes = () => {
     }
   }
 
-  return element;
+  return (
+    <Router>
+      {element}
+    </Router>
+  );
 };
 
 export default MainRoutes;
