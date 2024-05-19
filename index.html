@@ -9,20 +9,6 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-
-  <script type="text/javascript">
-   if (!window.location.origin) {
-        window.location.origin = window.location.protocol + "//" + window.location.host;
-      }
-
-      window.addEventListener('popstate', function(event) {
-        if (!event.state) {
-          window.history.replaceState({}, '', window.location.origin + window.location.pathname + window.location.search);
-        }
-      });
-
-      window.history.replaceState({}, '', window.location.origin + window.location.pathname + window.location.search);
-</script>
     
   </body>
 </html>
