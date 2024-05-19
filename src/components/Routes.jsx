@@ -1,46 +1,24 @@
-import React from 'react';
-import { useRoutes, useNavigate } from 'react-router-dom';
-import { HashRouter as Router } from 'react-router-dom';
+import React from 'react'
+import Garelly from './Garelly';
+import { Route, Routes, useLocation, BrowserRouter as Router } from 'react-router-dom';
 import Home from './Home';
 import About from './Pages/about'
+
 import Programs from './Pages/Programs';
 import Contact from './Pages/contact';
-
-const routes = [
-  { path: '/', element: <Home /> },
-  { path: '/about', element: <About /> },
-  { path: '/programs', element: <Programs /> },
-  { path: '/contact', element: <Contact /> },
-  { path: '/company', element: <About /> },
-];
-
 const MainRoutes = () => {
-  const element = useRoutes(routes);
-  const navigate = useNavigate();
-
-  // If no matching route was found...
-  if (!element) {
-    const path = window.location.pathname;
-
-    // Check if any of the defined paths are included in the current path
-    const routesExcludingLast = routes.slice(0, -1);
-    const similarRoute = routesExcludingLast.find(route => path.includes(route.path));
-
-    // If a similar route was found, navigate to it
-    if (similarRoute) {
-      navigate(similarRoute.path);
-    } 
-    // If no similar route was found, navigate to the home page
-    else {
-      navigate('/');
-    }
-  }
-
+    const location = useLocation();
   return (
-    <Router>
-      {element}
+    <Router basename="/">
+      <Routes key={location.pathname} location={location}>
+        <Route path="/" element={<Home/>}/>
+        <Route path="#/garelly" element={<Garelly/>}/>
+        <Route path="#/about" element={<About/>}/>
+        <Route path="#/programs" element={<Programs/>}/>
+        <Route path="#/contact" element={<Contact/>}/>
+      </Routes>
     </Router>
-  );
-};
+  )
+}
 
-export default MainRoutes;
+export default MainRoutes
