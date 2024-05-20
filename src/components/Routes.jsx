@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Routes, useLocation, Navigate } from 'react-router-dom';
 import Home from './Home';
-import About from './Pages/About';
+import About from './Pages/about';
 import Programs from './Pages/Programs';
-import Contact from './Pages/Contact';
+import Contact from './Pages/contact';
 import Garelly from './Garelly';
 
 const definedRoutes = [
