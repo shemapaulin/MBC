@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Routes, useLocation, Navigate } from 'react-router-dom';
 import Home from './Home';
-import About from './Pages/about';
+import About from './Pages/About';
 import Programs from './Pages/Programs';
-import Contact from './Pages/contact';
+import Contact from './Pages/Contact';
 import Garelly from './Garelly';
 
 const definedRoutes = [
@@ -14,15 +14,45 @@ const definedRoutes = [
   { path: '/contact', component: <Contact /> }
 ];
 
-const findClosestRoute = (path) => {
-  const routeScores = definedRoutes.map(route => {
-    const regex = new RegExp(route.path.replace('/', ''));
-    const match = path.match(regex);
-    return { route, score: match ? match.length : 0 };
-  });
+// Levenshtein distance function
+const getLevenshteinDistance = (a, b) => {
+  const matrix = Array.from({ length: a.length + 1 }, () => Array(b.length + 1).fill(0));
 
-  routeScores.sort((a, b) => b.score - a.score);
-  return routeScores[0].route;
+  for (let i = 0; i <= a.length; i++) {
+    matrix[i][0] = i;
+  }
+
+  for (let j = 0; j <= b.length; j++) {
+    matrix[0][j] = j;
+  }
+
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1, // deletion
+        matrix[i][j - 1] + 1, // insertion
+        matrix[i - 1][j - 1] + cost // substitution
+      );
+    }
+  }
+
+  return matrix[a.length][b.length];
+};
+
+const findClosestRoute = (path) => {
+  let closestRoute = definedRoutes[0];
+  let minDistance = Infinity;
+
+  for (const route of definedRoutes) {
+    const distance = getLevenshteinDistance(route.path, path);
+    if (distance < minDistance) {
+      minDistance = distance;
+      closestRoute = route;
+    }
+  }
+
+  return closestRoute;
 };
 
 const MainRoutes = () => {
