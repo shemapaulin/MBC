@@ -16,7 +16,7 @@ const Garelly = () => {
    <>
    <section className="py-6 bg-black text-gray-900">
 	<div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
-		<img src={biggy1} alt="" className="object-cover object-bottom w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square" />
+		<img src={biggy1} alt="" className="object-cover object-bottom w-full h-full col-span-2 row-span-2 rounded  min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square" />
 		<img alt="" className="object-cover  w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square hover:scale-125" src={rimwe} />
 		<img alt="" className="object-cover w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square hover:scale-125" src={kabiri} />
 		<img alt="" className="object-cover w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square hover:scale-125" src={gatatu} />
