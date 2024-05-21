@@ -1,5 +1,5 @@
 import React from "react";
-import impact from "../assets/imbuto.jpg";
+import impact from "../assets/impact.jpg";
 
 const Impact = () => {
   return (

@@ -1,7 +1,10 @@
 
 import { FaYoutube } from 'react-icons/fa'
-import p3 from '../assets/p3.jpg'
 import { Link } from 'react-router-dom'
+import david from "../assets/david.png"
+import boiintog from "../assets/boiintog.png"
+import byuku from "../assets/byuku.png"
+import safi from "../assets/safi.png"
 
 const Testimonial = () => {
   return (
@@ -45,7 +48,7 @@ const Testimonial = () => {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="/david.PNG"
+              src={david}
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -74,7 +77,7 @@ const Testimonial = () => {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
           <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src='safi.PNG'
+              src={safi}
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -108,7 +111,7 @@ const Testimonial = () => {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
           <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src='/boiintog.PNG'
+              src={boiintog}
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -142,7 +145,7 @@ const Testimonial = () => {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
           <img
               className="object-cover sm:object-cover w-full h-56 md:h-64 xl:h-80"
-              src='/byuku.PNG'
+              src={byuku}
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">

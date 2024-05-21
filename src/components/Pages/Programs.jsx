@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import beans from "../../assets/beans.jpg";
+import five from "../../assets/five.jpg";
 
 const Programs = () => {
   return (
@@ -46,7 +47,7 @@ const Programs = () => {
 
           <a className="group" href="#">
             <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-              <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src={"./5.jpg"} alt="Charity Program" />
+              <img className="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src={five} alt="Charity Program" />
               <span className="absolute top-0 end-0 rounded-se-xl rounded-es-xl text-xs font-medium text-white py-1.5 px-3 bg-black/60">Sponsored</span>
             </div>
             <div className="mt-7">
