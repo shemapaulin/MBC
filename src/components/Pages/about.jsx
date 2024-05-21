@@ -1,6 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import ProjectItem from "./projectItem";
+import beans from "../../assets/beans.jpg";
+import boiintog from "../../assets/boiintog.png";
+import rurangwa from "../../assets/rurangwa.png";
+import david from "../../assets/david.jpg";
+import fififoto from "../../assets/fififoto.jpeg";
+import founder from "../../assets/founder2.jpg";
 import { FaPlane, FaLifeRing } from "react-icons/fa";
 
 const About = () => {
@@ -35,7 +41,7 @@ const About = () => {
         <div
           className="relative bg-gradient-to-r from-white/[.15] via-transparent z-10"
           style={{
-            backgroundImage: `url(/beans.jpg)`,
+            backgroundImage: `url(${beans})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -92,8 +98,8 @@ const About = () => {
       <div id="Projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
         <h1 className="text-4xl font-bold text-center text-white mb-10">Interviews</h1>
         <div className="grid sm:grid-cols-2 gap-12">
-          <ProjectItem img="/boiintog.PNG" title="MRS Marie Claire Umutoniwase" link="https://www.youtube.com/watch?v=A2CczIrABwU" />
-          <ProjectItem img="/rurangwa.PNG" title="Mr Rurangwa Raphael" link="https://www.youtube.com/watch?v=cu5L-2ffcS0" />
+          <ProjectItem img={boiintog} title="MRS Marie Claire Umutoniwase" link="https://www.youtube.com/watch?v=A2CczIrABwU" />
+          <ProjectItem img={rurangwa} title="Mr Rurangwa Raphael" link="https://www.youtube.com/watch?v=cu5L-2ffcS0" />
         </div>
       </div>
       {/* End Interviews Section */}
@@ -162,21 +168,21 @@ const About = () => {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12">
           <div className="text-center">
-            <img className="rounded-xl sm:h-48 lg:h-60 mx-auto object-cover" src="/david.jpg" alt="MR. David Ngoboka - Managing Director" />
+            <img className="rounded-xl sm:h-48 lg:h-60 mx-auto object-cover" src={david} alt="MR. David Ngoboka - Managing Director" />
             <div className="mt-2 sm:mt-4">
               <h3 className="text-sm font-medium sm:text-base lg:text-lg text-neutral-200">MR. David Ngoboka</h3>
               <p className="text-xs sm:text-sm lg:text-base text-neutral-400">Managing Director</p>
             </div>
           </div>
           <div className="text-center">
-            <img className="rounded-xl sm:h-48 lg:h-60 mx-auto object-cover object-top" src="/fififoto.jpeg" alt="MRS. Marie Claire Umutoniwase - Director of Administration and Finance" />
+            <img className="rounded-xl sm:h-48 lg:h-60 mx-auto object-cover object-top" src={fififoto} alt="MRS. Marie Claire Umutoniwase - Director of Administration and Finance" />
             <div className="mt-2 sm:mt-4">
               <h3 className="text-sm font-medium sm:text-base lg:text-lg text-neutral-200">MRS. Marie Claire Umutoniwase</h3>
               <p className="text-xs sm:text-sm lg:text-base text-neutral-400">Director of Administration and Finance</p>
             </div>
           </div>
           <div className="text-center">
-            <img className="rounded-xl sm:h-48 lg:h-60 mx-auto object-cover object-top" src="/founder2.JPG" alt="MR. Etienne Bahunde - Head of Production" />
+            <img className="rounded-xl sm:h-48 lg:h-60 mx-auto object-cover object-top" src={founder} alt="MR. Etienne Bahunde - Head of Production" />
             <div className="mt-2 sm:mt-4">
               <h3 className="text-sm font-medium sm:text-base lg:text-lg text-neutral-200">MR. Etienne Bahunde</h3>
               <p className="text-xs sm:text-sm lg:text-base text-neutral-400">Head of Production</p>
