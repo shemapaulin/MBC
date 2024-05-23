@@ -22,7 +22,7 @@ const About = () => {
             "@type": "Organization",
             name: "Mubuga Bio Coffee",
             url: "https://www.mubugabiocoffee.rw",
-            logo: "https://www.mubugabiocoffee.rw/assets/finalLogo-DHFuXONb.webp",
+            logo: "https://www.mubugabiocoffee.rw/assets/finalLogo.webp",
             sameAs: ["https://www.facebook.com/mubugabiocoffee", "https://www.instagram.com/mubugabiocoffee", "https://www.linkedin.com/company/mubugabiocoffee"],
             contactPoint: [
               {
