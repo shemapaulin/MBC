@@ -43,8 +43,8 @@ const Header = () => {
         </div>
         {/** bottom bar*/}
         <div className="container flex justify-between h-16 mx-auto">
-          <Link rel="noopener noreferrer" to="/" aria-label="Back to homepage" className="flex items-center p-2 ">
-            <img src={logo} alt="logo" className="w-45 h-20" />
+          <Link rel="noopener noreferrer" to="/" aria-label="Back to homepage" className="flex items-center p-2 imageLink">
+            <img src={logo} alt="logo" className="w-45 h-20 sm:w-30" />
           </Link>
           <ul className="items-stretch hidden space-x-3 md:flex">
             <li className="flex">

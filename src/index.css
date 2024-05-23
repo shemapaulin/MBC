@@ -72,6 +72,12 @@ body {
 h1,
 h2 {
   font-family: "Anton", sans-serif;
-  /* increase space between words */
   letter-spacing: 1px;
+}
+
+@media (max-width: 640px) {
+  .imageLink img {
+    max-width: 34%;
+    height: auto;
+  }
 }

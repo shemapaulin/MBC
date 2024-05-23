@@ -32,12 +32,7 @@ const MobileNav = () => {
       <div className="text-3xl cursor-pointer absolute top-14 right-4" onClick={toggleMenu}>
         <CgMenuRight />
       </div>
-      <motion.div
-        variants={menuVariants}
-        initial="hidden"
-        animate={openMenu ? "show" : "hidden"} // Close menu if openMenu is false
-        className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20"
-      >
+      <motion.div variants={menuVariants} initial="hidden" animate={openMenu ? "show" : "hidden"} className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20">
         <div className="text-4xl absolute z-30 left-4 top-4 text-black cursor-pointer text-Primary" onClick={closeMenu}>
           <IoMdClose />
         </div>
