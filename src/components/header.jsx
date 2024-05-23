@@ -1,5 +1,5 @@
 import MobileNav from "./moboNav";
-import logo from "../assets/finalLogo.png";
+import logo from "../assets/finalLogo.webp";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (

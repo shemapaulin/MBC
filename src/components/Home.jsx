@@ -25,7 +25,7 @@ const Home = () => {
               name: "Mubuga Bio-Coffee",
               logo: {
                 "@type": "ImageObject",
-                url: "https://www.mubugabiocoffee.rw/assets/finalLogo-DHFuXONb.png",
+                url: "https://www.mubugabiocoffee.rw/assets/finalLogo.webp",
               },
             },
           })}
@@ -34,9 +34,6 @@ const Home = () => {
 
       <main>
         <HeroComponent />
-        <section id="about">
-          <LilttleAbt />
-        </section>
         <section id="values">
           <Corevalues />
         </section>
