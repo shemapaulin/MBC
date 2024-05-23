@@ -11,9 +11,7 @@ const menuVariants = {
   show: {
     x: 0,
     transition: {
-      type: "spring",
-      stiffness: 100,
-      damping: 20,
+      ease: [0.6, 0.01, -0.05, 0.9],
     },
   },
 };
@@ -30,17 +28,20 @@ const MobileNav = () => {
   };
 
   return (
-    <nav className="xl:hidden text-primary relative">
-      <div className="text-3xl cursor-pointer absolute top-4 right-4" onClick={toggleMenu}>
-        {openMenu ? <IoMdClose /> : <CgMenuRight />}
+    <nav className="xl:hidden text-primary ">
+      <div className="text-3xl cursor-pointer absolute top-14 right-4" onClick={toggleMenu}>
+        <CgMenuRight />
       </div>
       <motion.div
         variants={menuVariants}
         initial="hidden"
-        animate={openMenu ? "show" : "hidden"}
-        className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20 flex flex-col justify-center items-center"
+        animate={openMenu ? "show" : "hidden"} // Close menu if openMenu is false
+        className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20"
       >
-        <ul className="flex flex-col justify-center items-center text-black gap-y-8 text-primary font-Primary font-bold text-3xl cursor-pointer w-full">
+        <div className="text-4xl absolute z-30 left-4 top-4 text-black cursor-pointer text-Primary" onClick={closeMenu}>
+          <IoMdClose />
+        </div>
+        <ul className="h-full flex flex-col justify-center items-center text-black gap-y-8 text-primary font-Primary font-bold text-3xl cursor-pointer">
           <li onClick={closeMenu}>
             <Link to="/">Home</Link>
           </li>
