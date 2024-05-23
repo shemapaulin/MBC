@@ -1,20 +1,19 @@
-import React from 'react';
-import { Route, Routes, useLocation, Navigate } from 'react-router-dom';
-import Home from './Home';
-import About from './Pages/about';
-import Programs from './Pages/Programs';
-import Contact from './Pages/contact';
-import Garelly from './Garelly';
+import React from "react";
+import { Route, Routes, useLocation, Navigate } from "react-router-dom";
+import Home from "./Home";
+import About from "./Pages/about";
+import Programs from "./Pages/Programs";
+import Contact from "./Pages/contact";
+import Garelly from "./Garelly";
 
 const definedRoutes = [
-  { path: '/', component: <Home /> },
-  { path: '/gallery', component: <Garelly /> },
-  { path: '/about', component: <About /> },
-  { path: '/programs', component: <Programs /> },
-  { path: '/contact', component: <Contact /> }
+  { path: "/", component: <Home /> },
+  { path: "/gallery", component: <Garelly /> },
+  { path: "/about", component: <About /> },
+  { path: "/programs", component: <Programs /> },
+  { path: "/contact", component: <Contact /> },
 ];
 
-// Levenshtein distance function
 const getLevenshteinDistance = (a, b) => {
   const matrix = Array.from({ length: a.length + 1 }, () => Array(b.length + 1).fill(0));
 
@@ -29,11 +28,7 @@ const getLevenshteinDistance = (a, b) => {
   for (let i = 1; i <= a.length; i++) {
     for (let j = 1; j <= b.length; j++) {
       const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-      matrix[i][j] = Math.min(
-        matrix[i - 1][j] + 1, // deletion
-        matrix[i][j - 1] + 1, // insertion
-        matrix[i - 1][j - 1] + cost // substitution
-      );
+      matrix[i][j] = Math.min(matrix[i - 1][j] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j - 1] + cost);
     }
   }
 
@@ -57,7 +52,7 @@ const findClosestRoute = (path) => {
 
 const MainRoutes = () => {
   const location = useLocation();
-  const matchedRoute = definedRoutes.find(route => route.path === location.pathname);
+  const matchedRoute = definedRoutes.find((route) => route.path === location.pathname);
 
   if (!matchedRoute) {
     const closestRoute = findClosestRoute(location.pathname);

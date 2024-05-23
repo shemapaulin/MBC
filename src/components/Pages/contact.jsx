@@ -25,7 +25,14 @@ const Contact = () => {
         </script>
       </Helmet>
 
-      <div className="grid max-w-screen-xl pt-20 grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-white text-lime-600 mt-24 mb-24">
+      <div className="bg-gradient-to-r from-white/10 to-transparent ">
+        <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-9 space-y-8 text-center">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white leading-snug mt-4">Contact Us</h1>
+          <p className="text-xl sm:text-2xl text-gray-100 font-semibold">We'd love to hear from you! Reach out to us for any inquiries or support.</p>
+        </div>
+      </div>
+
+      <div className="grid max-w-screen-xl pt-20 grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-white text-lime-600 mt-10 mb-24 border-b border-black border-opacity-10">
         <div className="flex flex-col justify-between">
           <div className="space-y-2">
             <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
