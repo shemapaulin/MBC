@@ -27,25 +27,25 @@ const Testimonial = () => {
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 ">
         {[
           {
-            name: "David",
+            name: "Mr Ngoboka David",
             role: "Founder",
             image: david,
             link: "https://www.youtube.com/watch?v=A2CczIrABwU",
           },
           {
-            name: "Safi",
+            name: "Mrs Safi",
             role: "Farmer",
             image: safi,
             link: "https://www.youtube.com/watch?v=2iaHhbSj_KM",
           },
           {
-            name: "Boiintog",
+            name: "Mrs. Mutoniwase Marie Claire",
             role: "Founder",
             image: boiintog,
             link: "https://www.youtube.com/watch?v=A2CczIrABwU",
           },
           {
-            name: "Byuku",
+            name: "Mr Byukusenge",
             role: "Farmer",
             image: byuku,
             link: "https://www.youtube.com/watch?v=IdNHuUxN1kU",

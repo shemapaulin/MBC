@@ -6,8 +6,8 @@ const Header = () => {
     <>
       <header className="p-4 bg-black text-white">
         <div className="max-w-[85rem] mx-auto w-full px-4 sm:px-6 lg:px-8 ">
-          <div className="flex items-center justify-end gap-x-5 w-full py-2 sm:pt-2 sm:pb-0 -ml-12 lg:ml-20 ">
-            <div className="inline-flex justify-center items-center gap-2 font-medium text-white hover:text-amber-900 text-sm dark:text-white dark:hover:text-amber-900" href="#">
+          <div className="flex items-center justify-end gap-x-5 w-full py-2 sm:pt-2 sm:pb-0 -ml-12 lg:ml-19 ">
+            <div className="inline-flex justify-center items-center  font-medium text-white hover:text-amber-900 text-sm dark:text-white dark:hover:text-amber-900" href="#">
               <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13.5 2C13.5 2 15.8335 2.21213 18.8033 5.18198C21.7731 8.15183 21.9853 10.4853 21.9853 10.4853" stroke="#4d7c0f" stroke-width="1.5" stroke-linecap="round" />
                 <path d="M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829" stroke="#4d7c0f" stroke-width="1.5" stroke-linecap="round" />

@@ -84,7 +84,7 @@ const HeroComponent = () => {
               <span className="animated-slideInTop inline-block px-3 py-1 text-xs font-bold text-white bg-black rounded-full">Purpose</span>
               <p className="mt-4 text-2xl">
                 Mubuga bio coffee is investing in Bio-Coffee to improve the livelihood of the local population while uplifting the sector of Mubuga, commonly known by the negative effect of the
-                genocide against the Tutsi in 1994.
+                genocide against the Tutsi in 1994....
               </p>
             </div>
             <div className="mt-6 lg:mt-0 text-center lg:text-left">
