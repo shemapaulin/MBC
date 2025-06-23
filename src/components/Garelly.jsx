@@ -1,13 +1,13 @@
-import biggy1 from "../assets/biggy1.webp";
+import biggy1 from "../assets/1.webp";
 import rimwe from "../assets/rimwe.webp";
 import kabiri from "../assets/kabiri.webp";
 import gatatu from "../assets/gatatu.webp";
 import hiro from "../assets/hiro.webp";
-import hiro1 from "../assets/hiro1.webp";
-import savani from "../assets/savani.webp";
-import lasto from "../assets/lasto.webp";
+import hiro1 from "../assets/mubugabiocoffee.webp";
+import savani from "../assets/4.webp";
+import lasto from "../assets/3.webp";
 import imbuto from "../assets/imbuto.webp";
-import biggy2 from "../assets/biggy2.webp";
+import biggy2 from "../assets/2.webp";
 
 const Garelly = () => {
   return (
